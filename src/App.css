@@ -641,7 +641,7 @@ body {
 }
 
 /* Accessibility Icon */
-.accessibility-icon {
+/* .accessibility-icon {
   position: fixed;
   bottom: 20px;
   right: 20px;
@@ -657,7 +657,7 @@ body {
   cursor: pointer;
   box-shadow: 0 2px 8px rgba(0,0,0,0.2);
   z-index: 1000;
-}
+} */
 
 /* Buttons */
 .btn {

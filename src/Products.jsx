@@ -25,10 +25,10 @@ const ProductCard = ({ title, tags = [], desc, badge, highlight, image }) => (
           ))}
         </div>
       )}
-      <div className="product-actions">
+      {/* <div className="product-actions">
         <button className="btn btn-primary">Learn more</button>
         <button className="btn btn-outline">Buy now</button>
-      </div>
+      </div> */}
     </div>
   </div>
 );
@@ -49,7 +49,7 @@ const Products = () => {
           desc="Tri‑band 10.8 Gbps Wi‑Fi 7 router with 2.5G WAN/LAN and OFDMA+MU‑MIMO"
           tags={["Tri‑band", "2.5G", "OFDMA", "Gaming"]}
           highlight
-          image='../images/wifi7products.png'
+          image='../images/wifi7.png'
         />
         <ProductCard
           badge="Mesh"
